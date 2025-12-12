@@ -1,0 +1,610 @@
+[2025-12-11 08:05:02,217] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:05:02,217] INFO: 找到 20 張圖片
+[2025-12-11 08:05:02,217] INFO: 開始生成描述...
+[2025-12-11 08:05:03,499] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:08,442] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:12,945] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:15,239] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:19,326] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:23,618] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:25,617] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:29,915] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:33,982] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:36,103] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:40,211] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:44,287] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:46,389] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:50,503] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:54,869] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:05:57,294] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:01,720] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:06,178] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:08,093] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:11,979] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:15,884] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:18,237] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:22,329] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:26,447] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:28,895] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:33,434] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:37,720] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:39,982] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:44,253] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:48,512] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:50,577] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:54,680] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:06:58,757] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:00,846] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:05,022] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:09,089] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:11,526] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:16,327] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:20,913] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:23,193] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:27,435] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:31,731] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:33,824] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:37,887] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:41,966] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:44,048] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:47,967] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:52,059] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:54,310] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:07:58,730] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:03,007] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:05,144] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:09,240] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:13,326] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:15,382] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:19,295] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:23,228] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:25,494] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:29,748] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:33,985] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:08:35,488] INFO: 開始建立索引...
+[2025-12-11 08:09:50,539] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:09:50,539] INFO: 找到 20 張圖片
+[2025-12-11 08:09:50,539] INFO: 開始生成描述...
+[2025-12-11 08:09:53,963] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:09:58,255] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:02,502] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:04,605] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:08,729] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:12,847] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:14,920] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:19,003] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:23,069] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:25,174] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:29,289] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:33,408] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:35,498] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:39,595] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:43,699] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:46,148] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:50,582] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:55,002] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:10:56,893] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:00,790] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:04,708] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:06,801] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:10,887] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:14,982] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:17,284] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:21,714] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:26,134] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:28,377] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:32,631] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:36,898] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:38,981] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:43,081] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:47,198] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:49,315] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:53,379] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:11:57,454] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:00,073] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:04,705] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:09,298] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:11,563] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:15,821] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:20,087] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:22,177] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:26,261] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:30,367] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:32,268] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:36,392] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:40,489] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:42,947] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:47,376] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:51,806] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:53,889] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:12:57,999] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:02,399] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:04,458] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:08,528] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:12,540] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:14,796] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:19,040] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:23,290] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 08:13:24,793] INFO: 開始建立索引...
+[2025-12-11 08:16:52,650] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:16:52,650] INFO: 找到 20 張圖片
+[2025-12-11 08:16:52,650] INFO: 開始生成描述...
+[2025-12-11 08:16:53,626] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:16:57,955] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:02,304] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:04,490] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:08,607] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:12,872] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:14,994] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:19,140] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:23,180] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:25,277] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:29,374] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:33,560] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:35,704] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:39,910] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:44,040] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:46,528] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:51,041] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:55,586] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:17:57,545] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:01,509] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:05,474] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:07,608] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:11,764] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:15,927] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:18,470] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:22,978] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:27,461] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:29,744] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:34,072] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:38,387] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:40,720] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:44,844] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:48,987] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:51,120] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:55,227] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:18:59,345] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:01,844] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:06,503] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:11,068] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:13,431] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:17,805] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:22,130] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:24,267] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:28,427] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:32,536] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:34,675] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:38,815] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:42,897] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:45,394] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:49,892] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:54,280] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:19:56,418] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:00,567] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:05,016] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:07,125] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:11,242] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:15,456] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:17,798] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:22,118] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:26,234] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 08:20:27,736] INFO: 開始建立索引...
+[2025-12-11 08:20:27,778] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:23:34,827] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:23:34,827] INFO: 找到 20 張圖片
+[2025-12-11 08:23:34,827] INFO: 開始生成描述...
+[2025-12-11 08:26:25,162] INFO: 開始建立索引...
+[2025-12-11 08:26:25,169] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:28:55,731] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:28:55,731] INFO: 找到 20 張圖片
+[2025-12-11 08:28:55,731] INFO: 開始生成描述...
+[2025-12-11 08:30:18,459] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:30:18,460] INFO: 找到 1 張圖片
+[2025-12-11 08:30:18,460] INFO: 開始生成描述...
+[2025-12-11 08:30:27,105] INFO: 開始建立索引...
+[2025-12-11 08:30:27,116] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:31:23,771] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:31:23,772] INFO: 找到 1 張圖片
+[2025-12-11 08:31:23,772] INFO: 開始生成描述...
+[2025-12-11 08:31:32,416] INFO: 開始建立索引...
+[2025-12-11 08:31:32,423] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:32:11,181] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:32:11,181] INFO: 找到 1 張圖片
+[2025-12-11 08:32:11,181] INFO: 開始生成描述...
+[2025-12-11 08:32:19,834] INFO: 開始建立索引...
+[2025-12-11 08:32:19,847] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:38:55,203] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:38:55,203] INFO: 找到 1 張圖片
+[2025-12-11 08:38:55,203] INFO: 開始生成描述...
+[2025-12-11 08:39:03,848] INFO: 開始建立索引...
+[2025-12-11 08:39:03,856] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:43:54,381] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:43:54,381] INFO: 找到 1 張圖片
+[2025-12-11 08:43:54,381] INFO: 開始生成描述...
+[2025-12-11 08:44:03,022] INFO: 開始建立索引...
+[2025-12-11 08:44:03,034] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 08:44:03,272] INFO: HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 404 Not Found"
+[2025-12-11 08:57:48,094] INFO: 載入圖片目錄: data/images
+[2025-12-11 08:57:48,094] INFO: 找到 1 張圖片
+[2025-12-11 08:57:48,094] INFO: 開始生成描述...
+[2025-12-11 08:57:56,792] INFO: 開始建立索引...
+[2025-12-11 08:57:56,804] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:01:13,522] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:01:13,523] INFO: 找到 1 張圖片
+[2025-12-11 09:01:13,523] INFO: 開始生成描述...
+[2025-12-11 09:01:22,168] INFO: 開始建立索引...
+[2025-12-11 09:01:22,181] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:07:17,154] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:07:17,154] INFO: 找到 1 張圖片
+[2025-12-11 09:07:17,154] INFO: 開始生成描述...
+[2025-12-11 09:07:25,800] INFO: 開始建立索引...
+[2025-12-11 09:07:25,812] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:10:35,880] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:10:35,880] INFO: 找到 1 張圖片
+[2025-12-11 09:10:35,880] INFO: 開始生成描述...
+[2025-12-11 09:10:44,524] INFO: 開始建立索引...
+[2025-12-11 09:10:44,537] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:14:15,254] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:14:15,254] INFO: 找到 1 張圖片
+[2025-12-11 09:14:15,254] INFO: 開始生成描述...
+[2025-12-11 09:14:23,904] INFO: 開始建立索引...
+[2025-12-11 09:14:23,925] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:16:34,784] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:16:34,784] INFO: 找到 1 張圖片
+[2025-12-11 09:16:34,784] INFO: 開始生成描述...
+[2025-12-11 09:16:43,427] INFO: 開始建立索引...
+[2025-12-11 09:16:43,439] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:18:05,666] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:18:05,667] INFO: 找到 1 張圖片
+[2025-12-11 09:18:05,667] INFO: 開始生成描述...
+[2025-12-11 09:18:14,310] INFO: 開始建立索引...
+[2025-12-11 09:18:14,324] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:24:13,208] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:24:13,209] INFO: 找到 1 張圖片
+[2025-12-11 09:24:13,209] INFO: 開始生成描述...
+[2025-12-11 09:24:21,854] INFO: 開始建立索引...
+[2025-12-11 09:24:21,866] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:24:21,896] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 09:24:21,896] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:24:21,911] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 09:24:21,912] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 09:24:52,053] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:24:52,054] INFO: 找到 1 張圖片
+[2025-12-11 09:24:52,054] INFO: 開始生成描述...
+[2025-12-11 09:25:00,698] INFO: 開始建立索引...
+[2025-12-11 09:25:00,710] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:25:00,738] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 09:25:00,738] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:25:00,755] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 09:25:00,757] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 09:29:35,054] INFO: 載入圖片目錄: data/images
+[2025-12-11 09:29:35,054] INFO: 找到 1 張圖片
+[2025-12-11 09:29:35,054] INFO: 開始生成描述...
+[2025-12-11 09:29:43,702] INFO: 開始建立索引...
+[2025-12-11 09:29:43,716] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:29:43,743] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 09:29:43,743] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 09:29:43,758] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 09:29:43,759] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:17:29,046] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:17:29,047] INFO: 找到 1 張圖片
+[2025-12-11 12:17:29,047] INFO: 開始生成描述...
+[2025-12-11 12:17:37,696] INFO: 開始建立索引...
+[2025-12-11 12:17:37,709] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:17:37,741] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:17:37,741] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:17:37,758] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:17:37,759] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:17:54,347] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:17:54,347] INFO: 找到 1 張圖片
+[2025-12-11 12:17:54,347] INFO: 開始生成描述...
+[2025-12-11 12:18:02,996] INFO: 開始建立索引...
+[2025-12-11 12:18:03,018] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:18:03,045] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:18:03,045] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:18:03,059] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:18:03,060] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:19:16,975] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:19:16,975] INFO: 找到 1 張圖片
+[2025-12-11 12:19:16,975] INFO: 開始生成描述...
+[2025-12-11 12:19:25,622] INFO: 開始建立索引...
+[2025-12-11 12:19:25,645] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:19:25,671] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:19:25,672] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:19:25,686] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:19:25,687] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:26:29,124] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:26:29,125] INFO: 找到 1 張圖片
+[2025-12-11 12:26:29,125] INFO: 開始生成描述...
+[2025-12-11 12:26:37,773] INFO: 開始建立索引...
+[2025-12-11 12:26:37,785] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:26:37,812] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:26:37,812] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:26:37,826] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:26:37,827] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:26:37,901] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:28:24,221] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:28:24,221] INFO: 找到 1 張圖片
+[2025-12-11 12:28:24,221] INFO: 開始生成描述...
+[2025-12-11 12:28:32,867] INFO: 開始建立索引...
+[2025-12-11 12:28:32,889] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:28:32,916] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:28:32,916] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:28:32,930] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:28:32,931] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:28:54,504] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:28:54,504] INFO: 找到 1 張圖片
+[2025-12-11 12:28:54,504] INFO: 開始生成描述...
+[2025-12-11 12:29:03,150] INFO: 開始建立索引...
+[2025-12-11 12:29:03,165] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:29:03,192] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:29:03,192] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:29:03,207] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:29:03,209] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:30:10,996] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:30:10,996] INFO: 找到 1 張圖片
+[2025-12-11 12:30:10,996] INFO: 開始生成描述...
+[2025-12-11 12:30:19,641] INFO: 開始建立索引...
+[2025-12-11 12:30:19,661] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:30:19,688] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:30:19,688] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:30:19,702] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:30:19,704] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:30:19,716] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:31:28,847] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:31:28,847] INFO: 找到 1 張圖片
+[2025-12-11 12:31:28,847] INFO: 開始生成描述...
+[2025-12-11 12:31:37,492] INFO: 開始建立索引...
+[2025-12-11 12:31:37,506] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:31:37,533] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:31:37,533] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:31:37,547] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:31:37,549] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:31:37,561] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:31:37,672] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:31:41,616] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:31:41,622] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 12:31:41,656] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:31:41,657] INFO: [SUCCESS] 索引完成！
+[2025-12-11 12:31:41,657] INFO:   - 總圖片數: 1
+[2025-12-11 12:31:41,657] INFO:   - 成功: 0
+[2025-12-11 12:31:41,657] INFO:   - 失敗: 1
+[2025-12-11 12:31:41,657] INFO:   - 總耗時: 0.21 分鐘
+[2025-12-11 12:31:41,657] INFO:   - API 成本估算: $0.22
+[2025-12-11 12:33:12,254] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:33:12,254] INFO: 找到 1 張圖片
+[2025-12-11 12:33:12,254] INFO: 開始生成描述...
+[2025-12-11 12:33:20,901] INFO: 開始建立索引...
+[2025-12-11 12:33:20,913] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:33:20,940] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:33:20,940] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:33:20,954] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:33:20,955] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:33:20,968] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:33:21,047] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:33:24,440] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:33:24,453] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 12:33:24,479] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:33:24,480] INFO: [SUCCESS] 索引完成！
+[2025-12-11 12:33:24,480] INFO:   - 總圖片數: 1
+[2025-12-11 12:33:24,480] INFO:   - 成功: 0
+[2025-12-11 12:33:24,480] INFO:   - 失敗: 1
+[2025-12-11 12:33:24,480] INFO:   - 總耗時: 0.2 分鐘
+[2025-12-11 12:33:24,480] INFO:   - API 成本估算: $0.22
+[2025-12-11 12:33:39,175] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:33:39,175] INFO: 找到 1 張圖片
+[2025-12-11 12:33:39,175] INFO: 開始生成描述...
+[2025-12-11 12:33:47,821] INFO: 開始建立索引...
+[2025-12-11 12:33:47,845] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:33:47,872] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:33:47,872] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:33:47,886] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:33:47,887] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:33:47,907] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:33:47,989] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:33:49,161] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:33:49,173] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 12:33:49,198] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:33:49,200] INFO: [SUCCESS] 索引完成！
+[2025-12-11 12:33:49,200] INFO:   - 總圖片數: 1
+[2025-12-11 12:33:49,200] INFO:   - 成功: 1
+[2025-12-11 12:33:49,200] INFO:   - 失敗: 0
+[2025-12-11 12:33:49,200] INFO:   - 總耗時: 0.17 分鐘
+[2025-12-11 12:33:49,200] INFO:   - API 成本估算: $0.22
+[2025-12-11 12:36:29,353] INFO: 載入圖片目錄: data/images
+[2025-12-11 12:36:29,353] INFO: 已刪除現有 Chroma DB: data/chroma_db
+[2025-12-11 12:36:29,353] INFO: 找到 20 張圖片
+[2025-12-11 12:36:29,353] INFO: 開始生成描述...
+[2025-12-11 12:39:19,734] INFO: 開始建立索引...
+[2025-12-11 12:39:19,759] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:39:19,785] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 12:39:19,786] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 12:39:19,799] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 12:39:19,800] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 12:39:19,818] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 12:39:19,910] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,240] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,252] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,273] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:24,287] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,568] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,583] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:24,591] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:24,981] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:25,008] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:25,019] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:26,757] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:26,783] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:26,793] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:27,897] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:27,920] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:27,930] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:28,214] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:28,229] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:28,234] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:29,665] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:29,687] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:29,697] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:30,049] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:30,075] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:30,085] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:30,915] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:30,934] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:30,944] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:31,411] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:31,433] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:31,442] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:32,642] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:32,655] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:32,658] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:32,984] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:32,998] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:33,002] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:33,282] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:33,312] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:33,325] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:33,678] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:33,701] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:33,711] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,050] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,076] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:34,089] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,384] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,418] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:34,423] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,762] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:34,787] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:34,797] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:35,465] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:35,478] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:35,481] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:35,751] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:35,776] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:35,783] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 12:39:37,494] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 12:39:37,520] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 12:39:37,522] INFO: [SUCCESS] 索引完成！
+[2025-12-11 12:39:37,522] INFO:   - 總圖片數: 20
+[2025-12-11 12:39:37,522] INFO:   - 成功: 20
+[2025-12-11 12:39:37,522] INFO:   - 失敗: 0
+[2025-12-11 12:39:37,522] INFO:   - 總耗時: 3.14 分鐘
+[2025-12-11 12:39:37,522] INFO:   - API 成本估算: $0.22
+[2025-12-11 13:01:39,329] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:01:39,329] INFO: 已刪除現有 Chroma DB: data/chroma_db
+[2025-12-11 13:01:39,329] INFO: 找到 21 張圖片
+[2025-12-11 13:01:39,329] INFO: 開始生成描述...
+[2025-12-11 13:12:46,728] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:12:46,728] INFO: 找到 21 張圖片
+[2025-12-11 13:12:46,728] INFO: 開始生成描述...
+[2025-12-11 13:12:50,266] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:12:54,442] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:12:58,814] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:00,783] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:04,705] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:09,054] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:10,990] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:14,975] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:18,916] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:20,871] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:24,832] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:28,794] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:30,778] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:34,904] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:39,030] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:41,349] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:45,669] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:50,018] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:52,032] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:55,973] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:13:59,961] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:02,082] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:06,182] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:10,321] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:12,456] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:16,796] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:20,939] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:23,074] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:27,216] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:31,417] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:33,371] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:37,326] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:41,263] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:43,215] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:14:47,186] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:15:10,124] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:15:10,125] INFO: 找到 21 張圖片
+[2025-12-11 13:15:10,125] INFO: 開始生成描述...
+[2025-12-11 13:15:13,366] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:17,469] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:21,567] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:23,507] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:27,445] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:31,337] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:15:33,264] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-12-11 13:16:55,613] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:16:55,613] INFO: 找到 21 張圖片
+[2025-12-11 13:16:55,613] INFO: 開始生成描述...
+[2025-12-11 13:16:58,899] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:03,020] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:07,139] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:09,089] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:13,053] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:17,005] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:17:18,964] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:18:52,623] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:18:52,623] INFO: 找到 21 張圖片
+[2025-12-11 13:18:52,623] INFO: 開始生成描述...
+[2025-12-11 13:18:53,580] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:18:57,857] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:20:47,917] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:20:47,917] INFO: 找到 1 張圖片
+[2025-12-11 13:20:47,917] INFO: 開始生成描述...
+[2025-12-11 13:20:51,318] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:20:55,540] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:20:59,754] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:21:01,257] INFO: 開始建立索引...
+[2025-12-11 13:21:01,271] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 13:21:01,297] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,297] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 13:21:01,314] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,317] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,343] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,427] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,918] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,927] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 13:21:01,961] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 13:21:01,963] INFO: [SUCCESS] 索引完成！
+[2025-12-11 13:21:01,963] INFO:   - 總圖片數: 1
+[2025-12-11 13:21:01,963] INFO:   - 成功: 1
+[2025-12-11 13:21:01,964] INFO:   - 失敗: 0
+[2025-12-11 13:21:01,964] INFO:   - 總耗時: 0.23 分鐘
+[2025-12-11 13:21:01,964] INFO:   - API 成本估算: $0.22
+[2025-12-11 13:27:30,636] INFO: 載入圖片目錄: data/images
+[2025-12-11 13:27:30,636] INFO: 找到 1 張圖片
+[2025-12-11 13:27:30,636] INFO: 開始生成描述...
+[2025-12-11 13:27:31,421] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:27:35,546] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:27:39,673] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-11 13:27:41,175] INFO: 開始建立索引...
+[2025-12-11 13:27:41,183] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 13:27:41,210] INFO: HTTP Request: GET http://localhost:8001/api/v2/auth/identity "HTTP/1.1 200 OK"
+[2025-12-11 13:27:41,210] INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-12-11 13:27:41,227] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+[2025-12-11 13:27:41,229] INFO: HTTP Request: GET http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+[2025-12-11 13:27:41,253] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+[2025-12-11 13:27:41,328] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/get "HTTP/1.1 200 OK"
+[2025-12-11 13:27:44,600] INFO: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-12-11 13:27:44,612] INFO: HTTP Request: GET http://localhost:8001/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+[2025-12-11 13:27:44,636] INFO: HTTP Request: POST http://localhost:8001/api/v2/tenants/default_tenant/databases/default_database/collections/46ea910d-74bd-48aa-8d8c-4198f49c6218/add "HTTP/1.1 201 Created"
+[2025-12-11 13:27:44,638] INFO: [SUCCESS] 索引完成！
+[2025-12-11 13:27:44,638] INFO:   - 總圖片數: 1
+[2025-12-11 13:27:44,638] INFO:   - 成功: 1
+[2025-12-11 13:27:44,638] INFO:   - 失敗: 0
+[2025-12-11 13:27:44,638] INFO:   - 總耗時: 0.23 分鐘
+[2025-12-11 13:27:44,638] INFO:   - API 成本估算: $0.22
+[2025-12-12 00:14:17,795] INFO: 載入圖片目錄: data/images
+[2025-12-12 00:14:17,795] INFO: 找到 1 張圖片
+[2025-12-12 00:14:17,795] INFO: 開始生成描述...
+[2025-12-12 00:14:18,855] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-12-12 00:14:23,301] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
