@@ -1,77 +1,126 @@
-import os
-from typing import List, Dict
+import logging
+from typing import List, Dict, Optional
 from datetime import datetime
-from llama_index.core import Document, StorageContext
-from llama_index.vector_stores.chroma import ChromaVectorStore
-import chromadb
-from src.config import get_config
-from llama_index.core.indices.vector_store import VectorStoreIndex
-from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.embeddings.openai import OpenAIEmbedding
-# from chromadb.errors import UniqueConstraintViolationError
-from tqdm import tqdm
+from src.utils import dynamic_import
+import pickle
+import os
+
+# 新增: 向量庫 minimal 實作
+import numpy as np
+
+class SimpleVectorDB:
+    def __init__(self):
+        self.vectors = []
+        self.metadata = []
+        self.embedder = None  # 用於查詢時動態載入
+
+    def add(self, vector, meta):
+        self.vectors.append(vector)
+        self.metadata.append(meta)
+
+    def count(self):
+        return len(self.vectors)
+
+    def all(self):
+        return list(zip(self.vectors, self.metadata))
+
+    def save(self, path):
+        with open(path, "wb") as f:
+            pickle.dump({"vectors": self.vectors, "metadata": self.metadata}, f)
+
+    @classmethod
+    def load(cls, path):
+        db = cls()
+        if not os.path.isfile(path):
+            return db
+        with open(path, "rb") as f:
+            data = pickle.load(f)
+            db.vectors = data.get("vectors", [])
+            db.metadata = data.get("metadata", [])
+        return db
+
+    def embed(self, text):
+        from src.utils import dynamic_import
+        if self.embedder is None:
+            SentenceTransformer = dynamic_import("sentence_transformers", "SentenceTransformer")
+            self.embedder = SentenceTransformer("BAAI/bge-large-zh-v1.5")  # 可根據 config 調整
+        return self.embedder.encode(text)
+
+    def similarity(self, query_vec):
+        scores = []
+        for v, meta in zip(self.vectors, self.metadata):
+            score = float(np.dot(query_vec, v) / (np.linalg.norm(query_vec) * np.linalg.norm(v)))
+            scores.append((score, meta))
+        scores.sort(reverse=True, key=lambda x: x[0])
+        return scores
 
 class RAGIndexer:
-    def __init__(self, chroma_db_dir: str, collection_name: str, embedding_model: str):
+    def __init__(self, chroma_db_dir: str, collection_name: str, embedding_model: str, embedding_mode: str = "auto", vector_db_path: str = None):
         self.chroma_db_dir = chroma_db_dir
         self.collection_name = collection_name
         self.embedding_model = embedding_model
-        config = get_config()
-        chroma_host = getattr(config, "CHROMA_DB_HOST", "localhost")
-        chroma_port = getattr(config, "CHROMA_DB_PORT", 8001)
-        client = chromadb.HttpClient(host=chroma_host, port=chroma_port)
-        chroma_collection = client.get_or_create_collection(name=collection_name)
-        self.vector_store = ChromaVectorStore(
-            chroma_collection=chroma_collection,
-            collection_name=collection_name
-        )
-        self.storage_context = StorageContext.from_defaults(vector_store=self.vector_store)
-        self.embed_model = OpenAIEmbedding(model=embedding_model)
-        self.index = VectorStoreIndex.from_vector_store(
-            self.vector_store,
-            storage_context=self.storage_context,
-            embed_model=self.embed_model
-        )
+        self.embedding_mode = "manual"  # 強制手動 embedding，避免 llamaindex auto embedding 相依問題
+        self.embedder = None
+        self.vector_db_path = vector_db_path or os.path.join(chroma_db_dir, f"{collection_name}_vectors.pkl")
 
-    def index_caption(self, caption_data: dict) -> bool:
-        doc_id = caption_data.get("image_id")
-        caption_text = caption_data.get("caption")
-        image_path = caption_data.get("image_path")
+        if embedding_mode == "auto":
+            HuggingFaceEmbedding = dynamic_import("llama_index.embeddings.huggingface", "HuggingFaceEmbedding")
+            if HuggingFaceEmbedding is None:
+                raise ImportError("LlamaIndex HuggingFaceEmbedding 無法匯入，請檢查依賴版本")
+            self.embedder = HuggingFaceEmbedding(model_name=embedding_model)
+            self.vector_db = None
+        elif embedding_mode == "manual":
+            SentenceTransformer = dynamic_import("sentence_transformers", "SentenceTransformer")
+            if SentenceTransformer is None:
+                raise ImportError("sentence-transformers 無法匯入，請檢查依賴版本")
+            self.embedder = SentenceTransformer(embedding_model)
+            self.vector_db = SimpleVectorDB()
+        else:
+            raise ValueError("embedding_mode 必須為 'auto' 或 'manual'")
+
+    def embed(self, text: str):
+        if self.embedding_mode == "auto":
+            return self.embedder.get_text_embedding(text)
+        elif self.embedding_mode == "manual":
+            return self.embedder.encode(text)
+        else:
+            raise RuntimeError("未知 embedding_mode")
+
+    def index_caption(self, caption_data: Dict) -> bool:
         try:
-            # Check for duplicate
-            if self.vector_store._collection.get(ids=[doc_id])["ids"]:
-                print(f"[SKIP] Duplicate doc_id: {doc_id}")
-                return False  # Skip duplicate
-            if not caption_text or not doc_id or not image_path:
-                print(f"[ERROR] Missing field: doc_id={doc_id}, caption={caption_text}, image_path={image_path}")
-                return False
-            doc = Document(
-                text=caption_text,
-                doc_id=doc_id,
-                metadata={
-                    "image_id": doc_id,
-                    "image_path": image_path,
-                    "caption": caption_text,
-                    "indexed_at": caption_data.get("timestamp", datetime.utcnow().isoformat(timespec="seconds") + "Z")
-                }
-            )
-            self.index.insert(doc)
-            self.vector_store.persist(self.chroma_db_dir)
-            return True
+            emb = self.embed(caption_data["caption"])
         except Exception as e:
-            print(f"[EXCEPTION] index_caption failed for doc_id={doc_id}: {e}")
+            logging.error(f"Embedding 失敗: {e}")
             return False
 
-    def batch_index(self, caption_list: List[dict]) -> int:
+        if self.embedding_mode == "auto":
+            # TODO: LlamaIndex pipeline 寫入
+            logging.info(f"[AUTO] Index: {caption_data['image_id']} | emb shape: {getattr(emb, 'shape', None) or len(emb)}")
+        elif self.embedding_mode == "manual":
+            meta = {
+                "image_id": caption_data["image_id"],
+                "image_path": caption_data["image_path"],
+                "caption": caption_data["caption"],
+                "indexed_at": datetime.utcnow().isoformat()
+            }
+            self.vector_db.add(emb, meta)
+            logging.info(f"[MANUAL] Index: {caption_data['image_id']} | emb shape: {getattr(emb, 'shape', None) or len(emb)}")
+        return True
+
+    def batch_index(self, caption_list: List[Dict]) -> int:
         success = 0
-        for data in tqdm(caption_list, desc="建立索引"):
-            if self.index_caption(data):
+        for c in caption_list:
+            if self.index_caption(c):
                 success += 1
+        # 持久化 minimal 路徑
+        if self.embedding_mode == "manual":
+            os.makedirs(self.chroma_db_dir, exist_ok=True)
+            self.vector_db.save(self.vector_db_path)
         return success
 
     def get_collection_stats(self) -> dict:
-        count = self.vector_store._collection.count()
-        return {
-            "collection_name": self.collection_name,
-            "total_indexed": count
-        }
+        if self.embedding_mode == "manual":
+            return {"count": self.vector_db.count(), "last_indexed": None}
+        else:
+            # TODO: LlamaIndex pipeline 統計
+            return {"count": 0, "last_indexed": None}

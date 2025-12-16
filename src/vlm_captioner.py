@@ -41,7 +41,9 @@ class VLMCaptioner:
                                 {"type": "text", "text": CAPTION_PROMPT},
                                 {
                                     "type": "image_url",
-                                    "image_url": f"data:{mime_type};base64,{img_base64}"
+                                    "image_url": {
+                                        "url": f"data:{mime_type};base64,{img_base64}"
+                                    }
                                 }
                             ]
                         }

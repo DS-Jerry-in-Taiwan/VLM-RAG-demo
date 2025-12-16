@@ -19,8 +19,10 @@ def main():
     chroma_db_dir = config.CHROMA_DB_DIR
     collection_name = config.COLLECTION_NAME
     embedding_model = config.EMBEDDING_MODEL
+    embedding_mode = config.EMBEDDING_MODE
     vlm_model = config.VLM_MODEL
     api_key = config.OPENAI_API_KEY
+
 
     setup_logging()
     import logging
@@ -42,12 +44,17 @@ def main():
         return
 
     logger.info("開始生成描述...")
+    print("[INFO] VLM Model:",vlm_model)
     captioner = VLMCaptioner(api_key=api_key, model=vlm_model)
     start_time = time.time()
     captions = captioner.batch_generate(image_list)
 
     logger.info("開始建立索引...")
-    indexer = RAGIndexer(chroma_db_dir, collection_name, embedding_model)
+    print("[DEBUG] Configuration:", embedding_model)
+    # 顯示 embedding model 維度資訊
+    # llama-index 0.10.x 需直接傳入 model_name，不支援 prompts 參數
+    # llama-index 0.10.x 不支援 prompts 參數，直接進入 RAGIndexer
+    indexer = RAGIndexer(chroma_db_dir, collection_name, embedding_model, embedding_mode)
     success = indexer.batch_index(captions)
     total = len(captions)
     fail = total - success

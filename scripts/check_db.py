@@ -6,11 +6,22 @@ from pathlib import Path
 import sys
 
 def check_database(collection_name: str):
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    chroma_mode = os.getenv("CHROMA_MODE", "persistent").lower()
+    chroma_db_dir = os.getenv("CHROMA_DB_DIR", "vlm-rag-phase1/data/chroma_db")
+    chroma_host = os.getenv("CHROMA_DB_HOST", "localhost")
+    chroma_port = int(os.getenv("CHROMA_DB_PORT", "8001"))
+
     try:
-        client = chromadb.HttpClient(host="localhost", port=8001)
+        if chroma_mode == "http":
+            client = chromadb.HttpClient(host=chroma_host, port=chroma_port)
+        else:
+            client = chromadb.PersistentClient(path=chroma_db_dir)
         collections = client.list_collections()
         if collection_name not in [c.name for c in collections]:
-            print(f"❌ Collection {collection_name} 不存在於 docker server")
+            print(f"❌ Collection {collection_name} 不存在於 ChromaDB")
             return False
         collection = client.get_collection(name=collection_name)
         count = collection.count()

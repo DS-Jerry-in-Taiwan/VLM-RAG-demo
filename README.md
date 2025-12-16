@@ -1,4 +1,6 @@
-# VLM→RAG 圖片自然語言檢索系統（Phase 1）
+# VLM-RAG-demo
+
+## VLM→RAG 圖片自然語言檢索系統（Phase 1）
 
 ## 1. 專案介紹
 本專案實現靜態圖片的自然語言檢索 MVP，結合 GPT-4V 圖片描述、OpenAI Embedding、Chroma 向量庫與 Streamlit UI，驗證 RAG 技術可行性。

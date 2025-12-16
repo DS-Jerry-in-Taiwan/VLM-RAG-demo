@@ -1,44 +1,51 @@
 import argparse
 from src.config import get_config
 from src.rag_query import RAGQuery
-
-def print_results(result: dict):
-    print(f"\n[查詢] {result['query']}\n")
-    print(f"[結果] 找到 {len(result['results'])} 張相關圖片 (查詢時間: {result['query_time']}秒)\n")
-    for idx, item in enumerate(result["results"], 1):
-        print(f"{idx}. [分數: {item['score']:.2f}]")
-        print(f"   圖片: {item['image_path']}")
-        print(f"   描述: {item['caption']}\n")
-
-def interactive_mode(rag: RAGQuery):
-    print("進入互動模式，輸入查詢文字（輸入 exit 離開）")
-    while True:
-        query = input("查詢: ").strip()
-        if query.lower() in ("exit", "quit"):
-            break
-        result = rag.query(query)
-        print_results(result)
+import logging
+import os
 
 def main():
-    parser = argparse.ArgumentParser(description="RAG 查詢測試")
-    parser.add_argument("query", nargs="?", type=str, help="查詢文字")
-    parser.add_argument("--interactive", action="store_true", help="互動模式")
+    parser = argparse.ArgumentParser(description="查詢測試腳本")
+    parser.add_argument("query", type=str, nargs="?", help="查詢文字")
+    parser.add_argument("--top_k", type=int, default=None, help="返回 top_k 結果")
     args = parser.parse_args()
 
     config = get_config()
+    chroma_db_dir = config.CHROMA_DB_DIR
+    collection_name = config.COLLECTION_NAME
+    embedding_model = config.EMBEDDING_MODEL
+    embedding_mode = config.EMBEDDING_MODE
+    top_k = args.top_k or config.TOP_K
+
+    # docker http 服務模式
+    chroma_mode = os.getenv("CHROMA_MODE", "persistent")
+    chroma_host = os.getenv("CHROMA_DB_HOST", "localhost")
+    chroma_port = os.getenv("CHROMA_DB_PORT", "8001")
+
+    rag_kwargs = {}
+    if embedding_mode == "auto" and chroma_mode == "http":
+        rag_kwargs["chroma_http_host"] = chroma_host
+        rag_kwargs["chroma_http_port"] = chroma_port
+
     rag = RAGQuery(
-        chroma_db_dir=config.CHROMA_DB_DIR,
-        collection_name=config.COLLECTION_NAME,
-        embedding_model=config.EMBEDDING_MODEL
+        chroma_db_dir=chroma_db_dir,
+        collection_name=collection_name,
+        embedding_model=embedding_model,
+        embedding_mode=embedding_mode,
+        **rag_kwargs
     )
 
-    if args.interactive:
-        interactive_mode(rag)
-    elif args.query:
-        result = rag.query(args.query)
-        print_results(result)
-    else:
-        print("請輸入查詢文字或使用 --interactive 進入互動模式")
+    if not args.query:
+        print("請輸入查詢文字")
+        return
+
+    result = rag.query(args.query, top_k=top_k)
+    print(f"[查詢] {result['query']}\n")
+    print(f"[結果] 找到 {len(result['results'])} 張相關圖片 (查詢時間: {result['query_time']}秒)\n")
+    for i, r in enumerate(result["results"], 1):
+        print(f"{i}. [分數: {r['score']}]")
+        print(f"   圖片: {r['image_path']}")
+        print(f"   描述: {r['caption']}\n")
 
 if __name__ == "__main__":
     main()
